@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    position: relative;
+    background-color: rgba(248, 248, 77, 0.822);
+    background-image: url('\\static\\css\\p6.png');
+    background-repeat: repeat;
+    background-size: 25px;
+    text-align: center;
+}
+
+h1 {
+    position: relative;
+    font-family: 'Mynerve', cursive;
+    font-size: 70px;
+}
+
+p {
+    font-family: 'Mynerve', cursive;
+    font-size: 25px;
+    text-shadow: 0 0 5px white;
+}
+
+img {
+    border: 4mm ridge rgba(211, 220, 50, .6);
+}
+
+.emoji {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+}
+
+.joie {
+    background-image: url('\\static\\emojis\\joie.png');
+    top: 45px;
+    left: 150px;
+    transform: rotate(-15deg);
+}
+
+.surprise {
+    background-image: url('\\static\\emojis\\surprise.png');
+    top: 350px;
+    left: 150px;
+    transform: rotate(15deg);
+}
+
+.tristesse {
+    background-image: url('\\static\\emojis\\tristesse.png');
+    top: 680px;
+    left: 150px;
+    transform: rotate(-25deg);
+}
+
+.neutre {
+    position: relative;
+    background-image: url('\\static\\emojis\\neutre.png');
+    top: -50px;
+    left: 860px;
+}
+
+.peur {
+    background-image: url('\\static\\emojis\\peur.png');
+    top: 45px;
+    left: 1550px;
+    transform: rotate(15deg);
+}
+
+.degout {
+    background-image: url('\\static\\emojis\\degout.png');
+    top: 350px;
+    left: 1550px;
+    transform: rotate(-15deg);
+}
+
+.colere {
+    background-image: url('\\static\\emojis\\colere.png');
+    top: 680px;
+    left: 1550px;
+    transform: rotate(25deg);
+}

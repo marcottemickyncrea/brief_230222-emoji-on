@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }} ">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+  <title>Emoji'on - Détection des émotions faciales</title>
+</head>
+
+<body>
+  <h1>Emoji'on</h1>
+  <img id="video" src="{{ url_for('video_feed') }}">
+  <div class="emoji joie"><p>Joie</p></div>
+  <div class="emoji surprise"><p>Surprise</p></div>
+  <div class="emoji tristesse"><p>Tristesse</p></div>
+  <div class="emoji neutre"><p>Neutre</p></div>
+  <div class="emoji peur"><p>Peur</p></div>
+  <div class="emoji degout"><p>Dégoût</p></div>
+  <div class="emoji colere"><p>Colère</p></div>
+</body>
+
+</html>
